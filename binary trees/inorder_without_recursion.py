@@ -9,6 +9,9 @@ from tree import Tree
      b) Print the popped item, set current = popped_item->right
      c) Go to step 3.
 5) If current is NULL and stack is empty then we are done.
+
+Time Complexity: O(n)
+Space Complexity: O(n) - size of stack.
 '''
 
 def inorder(root):
