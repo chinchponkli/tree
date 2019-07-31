@@ -14,6 +14,9 @@ data using these links, and finally revert the changes to restore original tree.
       a) Make current as the right child of the rightmost
          node in current's left subtree
       b) Go to this left child, i.e., current = current->left
+
+Time Complexity: O(n)
+Space Complexity: O(1).
 '''
 
 from tree import Tree
